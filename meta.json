@@ -2,25 +2,18 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "since",
+            "title":"Since"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "activities",
+            "title":"Activities"
         }
-      */
     ],
+    "icon": "dex-zendesk",
     "title": "Zendesk: Get Activity" /* Required.A display name for the module */
 }
